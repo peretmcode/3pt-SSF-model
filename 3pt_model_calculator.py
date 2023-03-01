@@ -19,6 +19,8 @@ def hello_world():
 def radiation_plasma():
     pass
 
+def recycling_plasma():
+    pass
 #Define plasma parameters
 param = {"A": 2, "Z": 1, "Ip": 0.7e6, "BT": 1.7, "R": 1.7, "a":0.5, "kappa": 1.8, "lambdaq": 10e-3, "alphaT": 1, "fL_ux":1,\
                 "lpol_xt": 0.1, "fx_xt": 4, "fLFS": 0.5, "fcond": 1, "see": 0, "alphaR": 0.5, "alphaU": 0, "Ei": 25, "PSOL": 2e6,\
