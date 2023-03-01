@@ -15,6 +15,9 @@ import time
 
 def hello_world():
     print("hello word")
+    
+def radiation_plasma():
+    pass
 
 #Define plasma parameters
 param = {"A": 2, "Z": 1, "Ip": 0.7e6, "BT": 1.7, "R": 1.7, "a":0.5, "kappa": 1.8, "lambdaq": 10e-3, "alphaT": 1, "fL_ux":1,\
