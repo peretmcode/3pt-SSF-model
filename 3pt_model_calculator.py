@@ -1,6 +1,5 @@
 """
 Created on Wed Feb  8 08:43:25 2023
-
 @author: Peret
 """
 import numpy as np
@@ -11,6 +10,11 @@ import aurora
 from aurora import get_atom_data, get_adas_file_types,get_cs_balance_terms
 from scipy.interpolate import CubicSpline, PchipInterpolator
 import time
+
+#JG: I;m adding a function  helloworld
+
+def hello_world():
+    print("hello word")
 
 #Define plasma parameters
 param = {"A": 2, "Z": 1, "Ip": 0.7e6, "BT": 1.7, "R": 1.7, "a":0.5, "kappa": 1.8, "lambdaq": 10e-3, "alphaT": 1, "fL_ux":1,\
